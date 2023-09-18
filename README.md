@@ -1,10 +1,6 @@
- Tên : Phạm Đức Trọng
-  Quê Quán : Hà Nam]
-Đại học : Kinh Doanh Và Công Nghệ Hà Nội
-Xin chào các bạnn!!!
-
-
-<!---
-phamductrong03/phamductrong03 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+ print()
+def Print(d1,d2,d3,d4): print(' ',d1*' '+d2*'*'+d3*' '+d4*'*')
+for i in range(0,2): Print(3-i*2,9+4*i,5-i*4,9+4*i)
+for i in range(0,3):  Print(3-3,9+2*3,5-5,9+5)
+for i in range(-1,6): Print(i+1+(2+i),29-(i+1+(2+i))*2,0,0)
+print('',9*' '+'♥ i love you!',' ',sep='\n')
